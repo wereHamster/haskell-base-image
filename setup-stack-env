@@ -1,0 +1,13 @@
+#!/bin/sh
+set -e
+
+stack install --no-terminal --resolver=$1 --install-ghc \
+    aeson \
+    exceptions \
+    lens \
+    mtl \
+    network \
+    network-uri \
+    random \
+    stm \
+    text \
