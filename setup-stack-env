@@ -3,11 +3,19 @@ set -e
 
 stack install --no-terminal --resolver=$1 --install-ghc \
     aeson \
+    containers \
     exceptions \
+    http-conduit \
     lens \
     mtl \
     network \
     network-uri \
+    process \
     random \
+    servant \
+    snap-server \
     stm \
     text \
+    transformers \
+    unix \
+    unordered-containers \
