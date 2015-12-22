@@ -12,6 +12,7 @@ stack install --no-terminal --resolver=$1 --install-ghc \
     network-uri \
     process \
     random \
+    safe \
     servant \
     snap-server \
     stm \
@@ -19,3 +20,4 @@ stack install --no-terminal --resolver=$1 --install-ghc \
     transformers \
     unix \
     unordered-containers \
+    wai \
