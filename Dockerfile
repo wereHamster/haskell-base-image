@@ -1,4 +1,4 @@
-FROM ubuntu:15.04
+FROM ubuntu:15.10
 
 RUN apt-key adv --keyserver keyserver.ubuntu.com --recv-keys 575159689BEFB442 && \
     echo 'deb http://download.fpcomplete.com/ubuntu vivid main' >/etc/apt/sources.list.d/fpco.list && \
