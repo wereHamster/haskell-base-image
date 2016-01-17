@@ -7,4 +7,5 @@ RUN apt-key adv --keyserver keyserver.ubuntu.com --recv-keys 575159689BEFB442 &&
 
 ADD setup-stack-env /usr/bin/
 RUN /usr/bin/setup-stack-env lts-3
+RUN /usr/bin/setup-stack-env lts-4
 RUN /usr/bin/setup-stack-env nightly
